@@ -1,0 +1,74 @@
+.empresa{
+    max-width: 1200px;
+    padding: 25px 40px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+.empresa-foto {
+    flex: 0.3;
+    padding: 20px 40px;
+}
+
+.empresa-mensagem {
+    padding: 20px 40px;
+}
+
+.empresa-mensagem-titulo {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 38px;
+    line-height: 46px;
+    color: #014561;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.empresa-mensagem-titulo::after {
+    content: " ";
+    width: 40px;
+    height: 2px;
+    border-bottom: 2px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -120px;
+    color: #70B0C4;
+    background-color: #70B0C4;
+}
+
+.empresa-mensagem-titulo:hover::after{
+    animation: hoverwidth 1s normal;
+    animation-timing-function: ease-in-out; 
+}
+
+.empresa-mensagem-corpo-1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 19px;
+    line-height: 141.3%;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.empresa-mensagem-corpo-2 {
+    font-family: 'Cormorant';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 141.3%;
+    color: #1C86A4;
+}
+
+@keyframes hoverwidth {
+    0% {
+      width: 40px;
+    }
+    100% {
+      width: 120px;
+    }
+}
+  
