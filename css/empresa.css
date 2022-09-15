@@ -27,21 +27,24 @@
     position: relative;
 }
 
-.empresa-mensagem-titulo::after {
-    content: " ";
-    width: 40px;
-    height: 2px;
-    border-bottom: 2px;
+.empresa-mensagem-titulo::before {
+    content: "";
     position: absolute;
-    margin-top: 10px;
-    margin-left: -120px;
-    color: #70B0C4;
+    width: 200px;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    top: 60px;
     background-color: #70B0C4;
+    -webkit-transform: scaleX(0.5);
+    transform: scaleX(0.5);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
 }
 
-.empresa-mensagem-titulo:hover::after{
-    animation: hoverwidth 1s normal;
-    animation-timing-function: ease-in-out; 
+.empresa-mensagem-titulo:hover::before {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
 }
 
 .empresa-mensagem-corpo-1 {
@@ -61,14 +64,25 @@
     font-size: 24px;
     line-height: 141.3%;
     color: #1C86A4;
+    position: relative;
 }
 
-@keyframes hoverwidth {
-    0% {
-      width: 40px;
-    }
-    100% {
-      width: 120px;
-    }
+.empresa-mensagem-corpo-2::after {
+    content: '”';
+    position: absolute;
+    right: 0;
+    bottom: -70px;
+    font-size: 500px;
+    color: rgba(112, 176, 196, 0.1);
+}
+
+.empresa-mensagem-corpo-3 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 141.3%;
+    color: #828282;
+    float: right;
 }
   
