@@ -1,9 +1,9 @@
 .introducao {
     max-width: 1200px;
     padding: 25px 40px;
-    min-height: 600px;
+    min-height: 550px;
     margin: 0 auto;
-    background-image: url("../img/Banner_3.png");
+    background-image: url("../img/banner_introducao.png");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -55,20 +55,4 @@
     color: #E5E5E5;
     margin-top: 60px;
     float: left;
-  }
-
-  .link {
-    padding: 15px 40px;
-    background: #014561;
-    border-radius: 2px;
-    float: left;
-    text-decoration: none;
-    margin-top: 25px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 22px;
-    text-transform: uppercase;
-    color: #E5E5E5;
   }

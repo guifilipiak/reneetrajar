@@ -17,3 +17,19 @@ body {
     padding: 0px;
     list-style: none;
   }
+
+  .link {
+    padding: 15px 40px;
+    background: #014561;
+    border-radius: 2px;
+    float: left;
+    text-decoration: none;
+    margin-top: 20px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+  }
