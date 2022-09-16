@@ -1,6 +1,6 @@
 .header {
     position: absolute;
-    max-width: 1200px;
+    width: 1200px;
     right: 0;
     left:0;
     padding: 25px 40px;
@@ -38,8 +38,11 @@
   .header-menu a:hover{
     color: #ccc;
   }
-  
-  @media (max-width: 800px) {
+ 
+  /*Caso seja um site responsivo, podemos usar o 
+  @media para dimensionar os 
+  elementos e organizar melhor a distribuição em tela*/
+  /* @media (max-width: 800px) {
     .header {
       flex-direction: column;
       gap: 20px;
@@ -48,4 +51,4 @@
     .header a {
       border-radius: 4px;
     }
-  }
+  } */

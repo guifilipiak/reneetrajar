@@ -1,0 +1,10 @@
+.depoimentos{
+    width: 1200px;
+    padding: 25px 40px;
+    min-height: 600px;
+    margin: 0 auto;
+    background: rgb(1, 55, 76, 1);
+    background: linear-gradient(rgb(1, 55, 76, 0.5), rgb(1, 55, 76, 0.5)), url("../img/back_depoimentos.png");
+    background: linear-gradient(rgb(1, 55, 76, 0.5), rgb(1, 55, 76, 0.5)), url("../img/back_depoimentos.png");
+    display: flex;
+}

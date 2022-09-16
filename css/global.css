@@ -33,3 +33,25 @@ body {
     text-transform: uppercase;
     color: #E5E5E5;
   }
+
+  .link-1{
+    text-transform: none;
+    background-color: #BE9667;
+}
+
+  .link-2{
+    text-transform: none;
+    background-color: #014561;
+}
+
+  .m-l-n60{
+    margin-left: -60px;
+}
+
+.m-l-n20{
+    margin-left: -20px;
+}
+
+.m-l-50{
+    margin-left: 50px;
+}
